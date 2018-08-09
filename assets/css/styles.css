@@ -81,7 +81,7 @@
   }
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   #testimonialSection {
     height:409px!important;
     background-size:cover !important;
