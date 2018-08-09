@@ -76,14 +76,14 @@
 
 @media (max-width: 400px) {
   #testimonialSection {
-    height:271px!important;
+    height:271px !important;
     background-size:cover !important;
   }
 }
 
 @media (max-width: 576px) {
   #testimonialSection {
-    height:409px!important;
+    height:409px !important;
     background-size:cover !important;
   }
 }
