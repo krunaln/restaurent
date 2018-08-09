@@ -81,17 +81,10 @@
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 900px) {
   #testimonialSection {
     height:409px !important;
     background-size:cover !important;
-  }
-}
-
-@media (min-width: 900px) {
-  #testimonialSection {
-    height:500px!important;
-    background-size:contain !important;
   }
 }
 
