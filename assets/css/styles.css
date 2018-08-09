@@ -64,13 +64,65 @@
 
 @media (max-width: 576px) {
   #coverSection {
-    height:700px !important;
+    height:750px !important;
   }
 }
 
 @media (max-width: 576px) {
   #aboutLeft, #aboutRight {
     width:100% !important;
+  }
+}
+
+@media (max-width: 400px) {
+  #testimonialSection {
+    height:271px!important;
+    background-size:cover !important;
+  }
+}
+
+@media (min-width: 576px) {
+  #testimonialSection {
+    height:409px!important;
+    background-size:cover !important;
+  }
+}
+
+@media (min-width: 900px) {
+  #testimonialSection {
+    height:500px!important;
+    background-size:contain !important;
+  }
+}
+
+@media (max-width: 576px) {
+  #testimoinalHolder {
+    height:367px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  #testimoinalHolder {
+    height:290px !important;
+  }
+}
+
+.featuresHolder {
+  /*text-align:left;*/
+  -webkit-box-orient:vertical!important;
+  -webkit-box-direction:normal!important;
+  -ms-flex-direction:column!important;
+  flex-direction:column!important;
+  -webkit-box-align:center!important;
+  -ms-flex-align:center!important;
+  align-items:center!important;
+  display:flex;
+}
+
+@media (max-width: 576px) {
+  #preFooterImg {
+    margin-top:-170px;
+    height:381px !important;
   }
 }
 
